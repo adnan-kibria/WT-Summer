@@ -83,6 +83,14 @@
                 <td>National ID (NID):</td> <td><input type="text"> <br></td>
             </tr>
             <tr>
+            <tr>
+                <td>Set Password:</td> <td><input type="password"> <br></td>
+            </tr>
+            <tr>
+                <td>Upload ID Proof:</td>
+                <td><input type="file"> <br></td>
+            </tr>
+            <tr>
             <td>Language Known:</td>
                 <td>
                     <input type="radio" name="des"> English
@@ -95,10 +103,7 @@
 
             
 
-        <tr>
-            <td>Upload Photo:</td>
-            <td><input type="file"> <br></td>
-        </tr>
+        
 
         
 
