@@ -19,6 +19,8 @@
             margin: 0px;
             border: 2px solid lightgrey;
             padding: 2px;
+            position: static;
+            display: inline-block;
         }
         .btn {
             background-color: #007fff;
@@ -26,13 +28,26 @@
             padding: 10px;
             border: none;
             margin: 1px;
+            z-index: 1;;
+        }
+        #overflow{
+            overflow : auto;
+            background-color: white;
+            width: 15%;
+            height: 50px;
+            margin: 2px;
+            padding: 2px;
+            border: 0px;
+            outline: 1px solid orangered;
+            z-index: 1;
         }
     </style>
+
 <body>
     <h1>Bank Management System</h1>
     <h2>Your Trusted Financial Partner</h2>
-    <h3 style="color: black; font-family: Arial, Helvetica, sans-serif;"><b>Customer Registration Form</b></h3> 
-    <div>  
+    <h3 style="color: black; font-family: Arial, Helvetica, sans-serif;"><b>Customer Registration Form</b></h3>
+    <div>   
     <table>
             <tr>
                 <td>Full Name:</td> <td><input type="text"> <br></td>
@@ -110,6 +125,9 @@
             </td>
         </tr>
         </table>
+        </div>
+        <div id="overflow">
+            Thank you for choosing our bank. We are committed to providing you with the best financial services.   
         </div>
 </body>
 </html>
