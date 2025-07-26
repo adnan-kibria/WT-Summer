@@ -77,6 +77,12 @@
                 <td><textarea rows="2" cols="15"></textarea></td>
             </tr>
             <tr>
+                <td>Occupation:</td> <td><input type="text"> <br></td>
+            </tr>
+            <tr>
+                <td>National ID (NID):</td> <td><input type="text"> <br></td>
+            </tr>
+            <tr>
             <td>Language Known:</td>
                 <td>
                     <input type="radio" name="des"> English
