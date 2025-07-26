@@ -54,6 +54,16 @@
                 </td>
             </tr>
             <tr>
+                <td>Account Type:</td>
+                <td>
+                    <select>
+                        <option value="">Saving</option>
+                        <option value="">Current</option>
+                        <option value="">Fixed Deposit</option>
+                    </select> <br>
+                </td>
+            </tr>
+            <tr>
                 <td>Email:</td> <td><input type="text"> <br></td>
             </tr>
             <tr>
@@ -70,17 +80,7 @@
             </td>
             </tr>
 
-            <tr>
-                <td>Country:</td>
-                <td>
-                    <select>
-                        <option value="">--Select--</option>
-                        <option value="">Bangladesh</option>
-                        <option value="">Japan</option>
-                        <option value="">USA</option>
-                    </select> <br>
-                </td>
-            </tr>
+            
 
             
 
