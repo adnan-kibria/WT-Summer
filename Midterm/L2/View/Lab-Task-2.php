@@ -20,6 +20,13 @@
             border: 2px solid lightgrey;
             padding: 2px;
         }
+        .btn {
+            background-color: #007fff;
+            color: white;
+            padding: 10px;
+            border: none;
+            margin: 1px;
+        }
     </style>
 <body>
     <h1>Bank Management System</h1>
@@ -91,25 +98,16 @@
                 <td><input type="file"> <br></td>
             </tr>
             <tr>
-            <td>Language Known:</td>
                 <td>
-                    <input type="radio" name="des"> English
-                    <input type="radio" name="des"> Bangla
-                    <input type="radio" name="des"> Hindi <br>
+                    <input type="checkbox"> I agree to the terms and conditions
             </td>
             </tr>
-
-            
-
-            
-
-        
-
-        
-
         <tr>
             <td></td>
-            <td><input type="button" value="Register"></td>
+            <td >
+                <input class="btn" type="button" value="Register">
+                <input class="btn" type="button" value="Reset">
+            </td>
         </tr>
         </table>
         </div>
