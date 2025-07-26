@@ -24,7 +24,8 @@
 <body>
     <h1>Bank Management System</h1>
     <h2>Your Trusted Financial Partner</h2>
-    <h3 style="color: black; font-family: Arial, Helvetica, sans-serif;"><b>Customer Registration Form</b></h3>   
+    <h3 style="color: black; font-family: Arial, Helvetica, sans-serif;"><b>Customer Registration Form</b></h3> 
+    <div>  
     <table>
             <tr>
                 <td>Full Name:</td> <td><input type="text"> <br></td>
@@ -98,5 +99,6 @@
             <td><input type="button" value="Register"></td>
         </tr>
         </table>
+        </div>
 </body>
 </html>
