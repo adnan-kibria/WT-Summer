@@ -64,13 +64,18 @@
                 </td>
             </tr>
             <tr>
-                <td>Email:</td> <td><input type="text"> <br></td>
+                <td>Initial Deposit Amount:</td> <td><input type="text"> <br></td>
             </tr>
             <tr>
-                <td>Password:</td> <td><input type="text"> <br></td>
+                <td>Mobile Number:</td> <td><input type="text"> <br></td>
             </tr>
-            
-
+            <tr>
+                <td>Email Address:</td> <td><input type="text"> <br></td>
+            </tr>
+            <tr>
+            <td>Address:</td>
+                <td><textarea rows="2" cols="15"></textarea></td>
+            </tr>
             <tr>
             <td>Language Known:</td>
                 <td>
@@ -89,10 +94,7 @@
             <td><input type="file"> <br></td>
         </tr>
 
-        <tr>
-            <td>Comments:</td>
-            <td><textarea rows="4" cols="30"></textarea></td>
-        </tr>
+        
 
         <tr>
             <td></td>
