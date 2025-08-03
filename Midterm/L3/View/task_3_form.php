@@ -10,15 +10,15 @@
     <form>
         <label id="form-label"><b>Donation Form</b></label><br>
         <label class="labels" for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" required><br>
+        <input class="form-control" type="text" id="fname" name="fname" required><br>
         <label class="labels" for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname" required><br>
+        <input class="form-control" type="text" id="lname" name="lname" required><br>
         <label class="labels" for="address">Address:</label><br>
-        <input type="text" id="address" name="address" required><br>
+        <input class="form-control" type="text" id="address" name="address" required><br>
         <label class="labels" for="city">City:</label><br>
-        <input type="text" id="city" name="city" required><br>
+        <input class="form-control" type="text" id="city" name="city" required><br>
         <label class="labels" for="state">State:</label><br>
-        <select name="state" id="state"><br>
+        <select class="form-control" name="state" id="state"><br>
             <option value=""></option>
             <option value="Dhaka">Dhaka</option>
             <option value="Chittagong">Chittagong</option>
@@ -43,7 +43,7 @@
         <input type="radio" id="donation" name="3000" required>3000 BDT
         <input type="radio" id="donation" name="other" required>Other <br>
         <label class="labels" for="other_amount">Other Amount:</label><br>
-        <input type="number" id="other_amount" name="other_amount"><br>
+        <input class="form-control" type="number" id="other_amount" name="other_amount"><br>
         <label class="labels" for="payment">Payment Method</label><br>
         <input type="radio" id="payment" name="payment" value="cash" required> Cash
         <input type="radio" id="payment" name="payment" value="bkash" required> Bkash
