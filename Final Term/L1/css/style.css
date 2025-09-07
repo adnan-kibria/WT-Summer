@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.form-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+form{
+    padding-bottom: 10px;
+}
+.temp{
+    margin-bottom: 10px;
+}
+.error{
+    color: red;
+}
+.show{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
